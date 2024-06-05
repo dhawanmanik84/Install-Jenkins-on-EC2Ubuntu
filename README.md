@@ -2,9 +2,9 @@
 
 Login in to EC2 instance using SSH using the below command;
 
-ssh -i filename.pem ubuntu@PublicIP
+"ssh -i filename.pem ubuntu@PublicIP"
 It says permission denied in the below secreenshot since the private key file is unprotected as it contains sensitive information.
-To change permissions of the pem file use - chmod 600 filename.pem 
+To change permissions of the pem file use "chmod 600 filename.pem" 
  
  
 
@@ -29,7 +29,7 @@ https://www.jenkins.io/doc/book/installing/linux/
 Refer the above link for the Jenkins installation command for your respective Operating system, Ubuntu in this case.
  
 To check if the Jenkins server is up and running, run the below command;
-systemctl status Jenkins 
+"systemctl status Jenkins" 
 Exit the screen using ctrl+z.
 By default Jenkins run on port 8080 – Make sure you provide inbound rules for 8080 for your EC2 instance.
  
