@@ -1,11 +1,11 @@
 # Install Jenkins on EC2 Ubuntu
 
 Login in to EC2 instance using SSH using the below command;
+
 ssh -i filename.pem ubuntu@PublicIP
 It says permission denied in the below secreenshot since the private key file is unprotected as it contains sensitive information.
 To change permissions of the pem file use - chmod 600 filename.pem 
  
-ssh -i filename.pem ubuntu@PublicIP
  
 
 
